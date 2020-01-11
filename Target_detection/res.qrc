@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>bg.jpg</file>
+        <file>bg3.jpg</file>
+        <file>bg5.png</file>
+        <file>bg6.png</file>
+        <file>bg7.png</file>
+        <file>bg2.jpg</file>
+        <file>bg8.png</file>
+        <file>ARGUS.ico</file>
+    </qresource>
+</RCC>
