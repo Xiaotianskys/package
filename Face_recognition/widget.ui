@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>677</width>
+    <height>329</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
+  <property name="tabletTracking">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="logo.qrc">
+    <normaloff>:/logo.ico</normaloff>:/logo.ico</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#Widget{
+
+background:rgb(245,245,245)
+}</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_6">
+   <item row="0" column="0">
+    <layout class="QGridLayout" name="gridLayout_5">
+     <item row="0" column="0" alignment="Qt::AlignHCenter">
+      <widget class="QLabel" name="label">
+       <property name="styleSheet">
+        <string notr="true">#label{
+width:100px;
+height:30px;
+color:black;
+font-size:30px;
+text-align:center;
+font-family:'微软雅黑';
+
+}</string>
+       </property>
+       <property name="text">
+        <string>基于OpenCV人脸识别的课程签到系统</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0">
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="2">
+      <widget class="QPushButton" name="gecsv">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+width:200px;
+                     background-color:rgba(255,165,0);
+                     border-style:outset;
+                     border-width:6px;
+                     border-radius:10px;
+                     border-color:rgba(255,255,255,30);
+                     font:bold 10px;
+                     color:rgba(0,0,0,100);
+                     padding:6px;
+color:white;
+height:50px;
+font-size:20px;
+font-family:'微软雅黑'
+                     }
+
+
+                     QPushButton:pressed{
+                     background-color:rgba(100,255,100,200);
+                     border-color:rgba(255,255,255,30);
+                     border-style:inset;
+                     color:rgba(0,0,0,100);
+                     }
+ 
+                     QPushButton:hover{
+                     background-color:rgba(100,255,100,100);
+                     border-color:rgba(255,255,255,200);
+                     color:rgba(0,0,0,200);&quot;
+                     }
+                    </string>
+       </property>
+       <property name="text">
+        <string>生成文件</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QPushButton" name="identify">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+width:200px;
+                     background-color:rgba(255,165,0);
+                     border-style:outset;
+                     border-width:6px;
+                     border-radius:10px;
+                     border-color:rgba(255,255,255,30);
+                     font:bold 10px;
+                     color:rgba(0,0,0,100);
+                     padding:6px;
+color:white;
+height:50px;
+font-size:20px;
+font-family:'微软雅黑'
+                     }
+
+
+                     QPushButton:pressed{
+                     background-color:rgba(100,255,100,200);
+                     border-color:rgba(255,255,255,30);
+                     border-style:inset;
+                     color:rgba(0,0,0,100);
+                     }
+ 
+                     QPushButton:hover{
+                     background-color:rgba(100,255,100,100);
+                     border-color:rgba(255,255,255,200);
+                     color:rgba(0,0,0,200);&quot;
+                     }
+                    </string>
+       </property>
+       <property name="text">
+        <string>自我检测</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QPushButton" name="file">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+width:200px;
+                     background-color:rgba(255,165,0);
+                     border-style:outset;
+                     border-width:6px;
+                     border-radius:10px;
+                     border-color:rgba(255,255,255,30);
+                     font:bold 10px;
+                     color:rgba(0,0,0,100);
+                     padding:6px;
+color:white;
+height:50px;
+font-size:20px;
+font-family:'微软雅黑'
+                     }
+
+
+                     QPushButton:pressed{
+                     background-color:rgba(100,255,100,200);
+                     border-color:rgba(255,255,255,30);
+                     border-style:inset;
+                     color:rgba(0,0,0,100);
+                     }
+ 
+                     QPushButton:hover{
+                     background-color:rgba(100,255,100,100);
+                     border-color:rgba(255,255,255,200);
+                     color:rgba(0,0,0,200);&quot;
+                     }
+                    </string>
+       </property>
+       <property name="text">
+        <string>文件处理</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QPushButton" name="actualsite">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+width:200px;
+                     background-color:rgba(255,165,0);
+                     border-style:outset;
+                     border-width:6px;
+                     border-radius:10px;
+                     border-color:rgba(255,255,255,30);
+                     font:bold 10px;
+                     color:rgba(0,0,0,100);
+                     padding:6px;
+color:white;
+height:50px;
+font-size:20px;
+font-family:'微软雅黑'
+                     }
+
+
+                     QPushButton:pressed{
+                     background-color:rgba(100,255,100,200);
+                     border-color:rgba(255,255,255,30);
+                     border-style:inset;
+                     color:rgba(0,0,0,100);
+                     }
+ 
+                     QPushButton:hover{
+                     background-color:rgba(100,255,100,100);
+                     border-color:rgba(255,255,255,200);
+                     color:rgba(0,0,0,200);&quot;
+                     }
+                    </string>
+       </property>
+       <property name="text">
+        <string>实际应用</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QPushButton" name="collectface">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+width:200px;
+                     background-color:rgba(255,165,0);
+                     border-style:outset;
+                     border-width:6px;
+                     border-radius:10px;
+                     border-color:rgba(255,255,255,30);
+                     font:bold 10px;
+                     color:rgba(0,0,0,100);
+                     padding:6px;
+color:white;
+height:50px;
+font-size:20px;
+font-family:'微软雅黑'
+                     }
+
+
+                     QPushButton:pressed{
+                     background-color:rgba(100,255,100,200);
+                     border-color:rgba(255,255,255,30);
+                     border-style:inset;
+                     color:rgba(0,0,0,100);
+                     }
+ 
+                     QPushButton:hover{
+                     background-color:rgba(100,255,100,100);
+                     border-color:rgba(255,255,255,200);
+                     color:rgba(0,0,0,200);&quot;
+                     }
+                    </string>
+       </property>
+       <property name="text">
+        <string>采集数据</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="training_it">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+width:200px;
+                     background-color:rgba(255,165,0);
+                     border-style:outset;
+                     border-width:6px;
+                     border-radius:10px;
+                     border-color:rgba(255,255,255,30);
+                     font:bold 10px;
+                     color:rgba(0,0,0,100);
+                     padding:6px;
+color:white;
+height:50px;
+font-size:20px;
+font-family:'微软雅黑'
+                     }
+
+
+                     QPushButton:pressed{
+                     background-color:rgba(100,255,100,200);
+                     border-color:rgba(255,255,255,30);
+                     border-style:inset;
+                     color:rgba(0,0,0,100);
+                     }
+ 
+                     QPushButton:hover{
+                     background-color:rgba(100,255,100,100);
+                     border-color:rgba(255,255,255,200);
+                     color:rgba(0,0,0,200);&quot;
+                     }
+                    </string>
+       </property>
+       <property name="text">
+        <string>训练数据</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="logo.qrc"/>
+ </resources>
+ <connections/>
+</ui>
